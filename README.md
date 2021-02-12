@@ -1,5 +1,5 @@
 # Dimensional Analysis
-This interactive Jupyter-notebook (Python 3) determines the dimensionless parameters for a given set of physical variables in accordance with the Buckingham $\Pi$ theorem.
+This interactive Jupyter-Notebook (Python 3) determines the dimensionless parameters for a given set of physical variables in accordance with the Buckingham $\Pi$ theorem.
 
 ## Requirements
 * numpy
@@ -29,8 +29,8 @@ In this example the symbols represent following physical variables
 | rho     | Density of fluid           |kg / m^3 |            
 | D       | Diameter of sphere         |m        |
 
-In most cases you should be able to run the whole notebook at once  
-$\rightarrow$ **"Restart the kernel, then re-run the whole notebook"**
+In most cases you should be able to run the whole Notebook at once  
+$\rightarrow$ **"Restart the kernel, then re-run the whole Notebook"**
 
 In some special cases, however, the user is prompted either to rearrange the symbols in the input string or to delete a row from the dimensional matrix. However, the user is guided in doing so!
 
@@ -97,7 +97,7 @@ $
 \end{align}
 $
 
-This Jupyter-notebook can find solutions for these $k$-exponents and thus provide one possible set of dimensionless parameters.
+This Jupyter-Notebook can find solutions for these $k$-exponents and thus provide one possible set of dimensionless parameters.
 However, since we are dealing with an underdetermined system of equations, the calculated result is only one solution of an infinite number of possible solutions!
 
 For a detailed description of this procedure please referre to ["Dimensional Analysis for Engineers" by Simon, Weigand and Gomaa](https://doi.org/10.1007/978-3-319-52028-5)
