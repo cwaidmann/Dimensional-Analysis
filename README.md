@@ -1,3 +1,5 @@
+**Notice:** please open this README.md file in Jupyter, or open the [README.ipynb](README.ipynb) file on github to see a correct formatting of the LaTeX math formulas!
+
 # Dimensional Analysis
 This interactive Jupyter-Notebook (Python 3) determines the dimensionless parameters for a given set of physical variables in accordance with the Buckingham $\Pi$ theorem.
 
@@ -14,7 +16,7 @@ Enter a single string with symbols of physical variables (separated by spaces). 
 variables = 'F_D u eta rho D'
 ```
 #### Result
->$
+$
 \Pi_1 = \frac{F_D \rho}{\eta^2}\\
 \Pi_2 = \frac{D \rho u}{\eta}
 $
@@ -128,7 +130,7 @@ Here the string contains the same variables as the example above. However, in th
 variables = 'F_D eta u rho D'
 ```
 #### Result
->$
+$
 {\Pi_1}^* = \frac{F_D}{D^2 \rho u^2}\\
 {\Pi_2}^* = \frac{\eta}{D \rho u}
 $
@@ -139,7 +141,7 @@ Both resulting sets of dimensionless parameter are equally valid. However, in th
 
 If we went with the first sequential order, all hope is not lost. We could still arrive at the  form of the commonly used drag coefficient. Since the square of a dimensionless parameter is still dimensionless and also the product of two dimensionless parameters is still dimensionless, we can combine the parameters to obtain a new (equally valid) parameter:
 
->$
+$
 \Pi_1 \cdot \frac{1}{{\Pi_2}^2} = \frac{F_D \rho}{\eta^2} \cdot \frac{\eta^2}{D^2 \rho^2 u^2} = \frac{F_D}{D^2 \rho u^2} = {\Pi_1}^*
 $
 
@@ -151,7 +153,7 @@ We are interessted in the heat transfer coefficient $h$ (dependent variable) for
 variables = 'h u c_p rho eta k_th D'
 ```
 #### Result
->$
+$
 \Pi_1 = \frac{D h}{k_{th}}\\
 \Pi_2 = \frac{D \rho u}{\eta}\\
 \Pi_3 = \frac{c_p \eta}{k_{th}}
