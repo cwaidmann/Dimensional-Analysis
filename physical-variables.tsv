@@ -1,0 +1,80 @@
+Symbol	Quantity	L	M	T	I	Theta	N	J	SI unit	in SI base units	Category	Comment
+l	Length	1	0	0	0	0	0	0	m	m	Base quantity	lowercase L
+m	Mass	0	1	0	0	0	0	0	kg	kg	Base quantity	-
+t	Time	0	0	1	0	0	0	0	s	s	Base quantity	-
+I	Electric current	0	0	0	1	0	0	0	A	A	Base quantity	-
+T	Temperature	0	0	0	0	1	0	0	K	K	Base quantity	-
+n	Amount of substance	0	0	0	0	0	1	0	mol	mol	Base quantity	-
+I_v	Luminous intensity	0	0	0	0	0	0	1	cd	cd	Base quantity	uppercase i
+N	Number of 	0	0	0	0	0	0	0	1	1	Molecular	-
+M_mol	Molar mass	0	1	0	0	0	-1	0	kg  / mol	kg  / mol	Molecular	-
+alpha	Angle	0	0	0	0	0	0	0	1	1	Geometry	-
+gamma	Angle	0	0	0	0	0	0	0	1	1	Geometry	-
+x	Distance or length	1	0	0	0	0	0	0	m	m	Geometry	-
+L	Characteristic length 	1	0	0	0	0	0	0	m	m	Geometry	-
+D	Diameter	1	0	0	0	0	0	0	m	m	Geometry	-
+R	Radius	1	0	0	0	0	0	0	m	m	Geometry	-
+H	Height	1	0	0	0	0	0	0	m	m	Geometry	-
+A	Area	2	0	0	0	0	0	0	m^2	m^2	Geometry	-
+V	Volume	3	0	0	0	0	0	0	m^3	m^3	Geometry	-
+tau	Time	0	0	1	0	0	0	0	s	s	Kinematics	-
+lambda	Wavelength	1	0	0	0	0	0	0	m	m	Kinematics	-
+a_s	Speed of sound	1	0	-1	0	0	0	0	m / s	m / s	Kinematics	-
+c	Speed of light	1	0	-1	0	0	0	0	m / s	m / s	Kinematics	-
+v	Velocity	1	0	-1	0	0	0	0	m / s	m / s	Kinematics	-
+v_0	Start velocity	1	0	-1	0	0	0	0	m / s	m / s	Kinematics	-
+u	Flow velocity	1	0	-1	0	0	0	0	m / s	m / s	Kinematics	-
+a	Acceleration	1	0	-2	0	0	0	0	m / s^2	m / s^2	Kinematics	-
+g	Gravitational acceleration	1	0	-2	0	0	0	0	m / s^2	m / s^2	Kinematics	-
+f	Frequency	0	0	-1	0	0	0	0	Hz	1 / s	Kinematics	-
+n_rot	Rotational speed	0	0	-1	0	0	0	0	1 / s	1 / s	Kinematics	-
+omega	Angular velociy	0	0	-1	0	0	0	0	1 / s	1 / s	Kinematics	-
+eta	Dynamic viscosity	-1	1	-1	0	0	0	0	Pa s	kg / (m s)	Mechanics	-
+nu	Kinematic viscosity	2	0	-1	0	0	0	0	m^2 / s	m^2 / s	Mechanics	-
+F	Force	1	1	-2	0	0	0	0	N	kg m / s^2	Mechanics	-
+F_D	Drag / Resistance force	1	1	-2	0	0	0	0	N	kg m / s^2	Mechanics	-
+P	Power	2	1	-3	0	0	0	0	W	kg m^2 / s^3	Mechanics	-
+rho	Density	-3	1	0	0	0	0	0	kg / m^3	kg / m^3	Mechanics	-
+rho_0	Start density	-3	1	0	0	0	0	0	kg / m^3	kg / m^3	Mechanics	-
+v_s	Specific volume	3	-1	0	0	0	0	0	m^3 / kg	m^3 / kg	Mechanics	-
+p	Pressure	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+p_0	Start pressure	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+p_diff	Pressure difference	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+E	Energy	2	1	-2	0	0	0	0	J	kg m^2 / s^2	Mechanics	-
+W	Work	2	1	-2	0	0	0	0	J	kg m^2 / s^2	Mechanics	-
+p_mom	Momentum	1	1	-1	0	0	0	0	N s	kg m / s	Mechanics	-
+L_mom	Angular momentum	2	1	-1	0	0	0	0	J s	kg m^2 / s	Mechanics	-
+I_mom	Moment of inertia	2	1	0	0	0	0	0	kg m^2	kg m^2	Mechanics	uppercase i
+sigma_s	Stress	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+E_Y	Young's modulus	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+G_shear	Shear modulus	-1	1	-2	0	0	0	0	Pa	kg / (m s^2)	Mechanics	-
+J	Second moment of area	4	0	0	0	0	0	0	m^4	m^4	Mechanics	-
+M	Torque	2	1	-2	0	0	0	0	N m	kg m^2 / s^2	Mechanics	-
+sigma	Surface tension	0	1	-2	0	0	0	0	N / m	kg / s^2	Mechanics	-
+m_dot	Mass flow rate	0	1	-1	0	0	0	0	kg / s	kg / s	Mechanics	-
+V_dot	Volumetric flow rate	3	0	-1	0	0	0	0	m^3 / s	m^3 / s	Mechanics	-
+k_th	Thermal conductivity	1	1	-3	0	-1	0	0	W / (m K)	kg m / (s^3 K)	Thermodynamics	-
+C	Heat capacity	2	1	-2	0	-1	0	0	J / K	kg m^2 / (s^2 K)	Thermodynamics	-
+c_p	Specific heat capacity (const. pressure)	2	0	-2	0	-1	0	0	J / (kg K)	m^2 / (s^2 K)	Thermodynamics	-
+c_v	Specific heat capacity (const. volume)	2	0	-2	0	-1	0	0	J / (kg K)	m^2 / (s^2 K)	Thermodynamics	-
+Q	Heat	2	1	-2	0	0	0	0	J	kg m^2 / s^2	Thermodynamics	-
+Q_dot	Rate of heat flow	2	1	-3	0	0	0	0	W	kg m^2 / s^3	Thermodynamics	-
+q_dot	Heat flux	0	1	-3	0	0	0	0	W / m^2	kg  / s^3	Thermodynamics	-
+U	Internal energy	2	1	-2	0	0	0	0	J	kg m^2 / s^2	Thermodynamics	-
+h	Heat transfer coefficient	0	1	-3	0	-1	0	0	W / (m^2 K)	kg  / (s^3 K)	Thermodynamics	-
+M_lambda	Spectral exitance	-1	1	-3	0	0	0	0	W / m^3	kg / (m s^3)	Thermodynamics	-
+k_B	Boltzmann constant	2	1	-2	0	-1	0	0	J / K	kg m^2 / (s^2 K)	Thermodynamics	-
+h_P	Planck constant	2	1	-1	0	0	0	0	J s	kg m^2 / s	Thermodynamics	-
+T_diff	Temperature difference	0	0	0	0	1	0	0	K	K	Thermodynamics	-
+T_wall	Temperature difference	0	0	0	0	1	0	0	K	K	Thermodynamics	-
+T_air	Temperature difference	0	0	0	0	1	0	0	K	K	Thermodynamics	-
+a_th	Thermal diffusivity	2	0	-1	0	0	0	0	m^2 / s	m^2 / s	Thermodynamics	-
+q_el	Electric charge	0	0	1	1	0	0	0	C	A s	Electrodynamics	-
+B	Magnetic flux density (B-field)	0	1	-2	-1	0	0	0	T (Tesla)	kg / (s^2 A)	Electrodynamics	-
+U_el	Voltage	2	1	-3	-1	0	0	0	V	kg m^2 / (s^3 A)	Electrodynamics	-
+R_el	Electrical resistance	2	1	-3	-2	0	0	0	Ohm	kg m^2 / (s^3 A^2)	Electrodynamics	-
+G_el	Electrical conductance	-2	-1	3	2	0	0	0	S (Siemens)	s^3 A^2 / (kg m^2)	Electrodynamics	-
+E_el	Electric field	1	1	-3	-1	0	0	0	V / m	kg m / (s^3 A)	Electrodynamics	-
+C_el	Capacitance	-2	-1	4	2	0	0	0	F (Farad)	s^4 A^2 / (kg m^2)	Electrodynamics	-
+L_el	Inductance	2	1	-2	-2	0	0	0	H (Henry)	kg m^2 / (s^2 A^2)	Electrodynamics	-
+mu	Permeability (electromagnetism)	1	1	-2	-2	0	0	0	H / m	kg m / (s^2 A^2)	Electrodynamics	-
