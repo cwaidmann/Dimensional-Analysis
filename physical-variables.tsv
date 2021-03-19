@@ -15,6 +15,7 @@ L	Characteristic length 	1	0	0	0	0	0	0	m	m	Geometry	-
 D	Diameter	1	0	0	0	0	0	0	m	m	Geometry	-
 R	Radius	1	0	0	0	0	0	0	m	m	Geometry	-
 H	Height	1	0	0	0	0	0	0	m	m	Geometry	-
+A_dot	Rate of area change	2	0	-1	0	0	0	0	m^2 / s	m^2 / s	Kinematics	-
 A	Area	2	0	0	0	0	0	0	m^2	m^2	Geometry	-
 V	Volume	3	0	0	0	0	0	0	m^3	m^3	Geometry	-
 tau	Time	0	0	1	0	0	0	0	s	s	Kinematics	-
@@ -78,3 +79,4 @@ E_el	Electric field	1	1	-3	-1	0	0	0	V / m	kg m / (s^3 A)	Electrodynamics	-
 C_el	Capacitance	-2	-1	4	2	0	0	0	F (Farad)	s^4 A^2 / (kg m^2)	Electrodynamics	-
 L_el	Inductance	2	1	-2	-2	0	0	0	H (Henry)	kg m^2 / (s^2 A^2)	Electrodynamics	-
 mu	Permeability (electromagnetism)	1	1	-2	-2	0	0	0	H / m	kg m / (s^2 A^2)	Electrodynamics	-
+G	Gravitational constant	3	-1	-2	0	0	0	0	m^3 / (kg s^2)	m^3 / (kg s^2)	Constant	-
